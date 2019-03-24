@@ -1,0 +1,175 @@
+@keyframes flag-slide {
+    0% {
+        transform: translateX(-5vw);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+.flag {
+    animation: flag-slide 3s linear 0s alternate infinite;
+}
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img { 
+    max-width:100%; 
+}
+
+.shadowed {
+    text-shadow: 1px 1px #3E3E3E;
+}
+
+.navbar {
+    background-color: #0F7449;
+}
+
+.about p::first-letter {
+    font-size: 35px;
+    line-height: 0%;
+    color:#169B62;
+}
+
+.card.thingdo p::first-letter {
+    font-size: 30px;
+    line-height: 0%;
+    color:#3E3E3E;
+}
+
+.card {
+    width: 100%;
+}
+.card.header-img, .card.recommended {
+    border: none;
+}
+
+.card.location {
+    border-color: #0F7449;
+    transition: .2s;
+}
+
+.card.location:hover {
+    background-color: #dad8d8;
+}
+
+.card.location h3 {
+    color: #169B62;
+}
+
+.card.location img {
+    height: 278px;
+    object-fit: cover;
+}
+
+.card.thingdo {
+    padding: 15px;
+    color: white;
+}
+
+.card.thingdo p::first-letter {
+    font-size: 30px;
+    color:#3E3E3E;
+}
+
+.card.location img, .card.thingdo img {
+    /*width: 100%;*/
+    display: block;
+    height: 20vw;
+    /*object-fit: cover;*/
+}
+
+.card.thingdo {
+    border-color: #0F7449;
+    background-color: #FF883E;
+    transition: 1s;
+}
+
+.card.thingdo img{
+    width: 178px;
+    height: 178px;
+    object-fit: cover;
+}
+
+.card.thingdo:hover {
+    transform: scale(1.05);
+}
+
+hr {
+    background-color: #0F7449;
+}
+
+.row.recommended {
+    max-height: 100%;
+}
+
+.row.recommended:hover {
+    cursor:pointer;
+}
+
+
+.gallery {
+    background-color: #0F7449;
+}
+
+img.gal-img {
+    width: 255px;
+    height: 255px;
+    object-fit: cover;
+}
+
+.gal-img {
+    border-radius: 3px;
+    transition: 1s;
+}
+
+.gal-img:hover {
+    transform: scale(1.05);
+    text-decoration: overline underline;
+    text-decoration-color: #FF883E;
+    cursor:pointer;
+}
+
+.gal-img.card-img-overlay {
+    margin-left: 15px;
+}
+
+.orangebutton {
+    background-color: #FB670C;
+    color: white;
+}
+
+.darkgreybutton {
+    background-color: #3E3E3E;
+    color: white;
+    transition: .5s;
+}
+
+.darkgreybutton:hover {
+    border-color: #0F7449;
+    background-color: white;
+    transform: translate(-15px) skew(2deg);
+    color: #0F7449;
+    cursor:pointer;
+}
+
+.greybutton {
+    background-color: #727272;
+    color: white;
+    transition: .5s;
+}
+
+.greybutton:hover {
+    border-color: #0F7449;
+    background-color: white;
+    transform: translate(5px) skew(-2deg);
+    color: #0F7449;
+    text-decoration: underline;
+    text-decoration-color: #3E3E3E;
+    cursor:pointer;
+}
+
+.row.footer a {
+    color: white;
+}

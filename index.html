@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Travel363</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../Midterm/travel363.css" />
+    
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+        <header class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-xl navbar-dark">
+                    <div class="container">
+                        <!--Nav toggle-->
+                            <div class="d-xl-none dropdown">
+                                <button class="btn btn-default navbar-toggler-icon" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <li><a class="nav-item nav-link" href="#about">About</a></li>
+                                    <li><a class="nav-item nav-link" href="#booknow">Book Now</a></li>
+                                    <li><a class="nav-item nav-link" href="#locations">Locations</a></li>
+                                    <li><a class="nav-item nav-link" href="#thingsdo">Things To Do</a></li>
+                                    <li><a class="nav-item nav-link" href="#gallery">Gallery</a></li>
+                                    <li><a class="nav-item nav-link" href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
+                        <!--Reg Nav Links-->
+                        <a class="navbar-brand" href="#">Travel363</a>
+                        <div class="justify-content-end collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-item nav-link" href="#about">About</a>
+                                <a class="nav-item nav-link" href="#booknow">Book Now</a>
+                                <a class="nav-item nav-link" href="#locations">Locations</a>
+                                <a class="nav-item nav-link" href="#thingsdo">Things To Do</a>
+                                <a class="nav-item nav-link" href="#gallery">Gallery</a>
+                                <a class="nav-item nav-link" href="#contact">Contact</a>
+                            </div>
+                        </div>
+                        <form class="d-none d-xl-block form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+    <!-- Header Image -->
+        <aside class="row">
+            <div class="card header-img text-white">
+                <img class="card-img" src="images/connor-robertson-340960-unsplash.jpg" alt="View of cliffs on the ocean">
+                <div class="card-img-overlay d-flex flex-column justify-content-end text-center text-white shadowed">
+                    <h1 class="card-title display-4 text-center">Ireland</h2>
+                    <p class="card-text text-center">Find Your Happy Place</p>
+                </div>
+            </div>
+        </aside>
+
+    <!-- About Section -->
+    <aside class="flag-slider">
+        <img class="flag mt-3" src="images/Irish_Flag_500.jpg" alt="Irish flag">
+    </aside>
+    <section class="container about" id="about">
+        <div class="row d-flex flex-column">
+            <div class="col-12 mb-3 text-center">
+                <h2 class="display-4">About Ireland</h2>
+            </div>
+            <div class="text-center">
+                <p class="col 12 col-md-10 offset-md-1">Ireland is beloved worldwide as an enchanting land where legend and reality mingle. At one point voted by Frommers Guide readers as their favourite holiday destination in the world, it’s now your turn to discover the mystique and charm of the Emerald Isle.</p>
+            </div>
+            <button type="submit" id="booknow" class="col-4 col-md-2 btn align-self-center greybutton text-center">Book Now</button>
+        </div>
+    </section>    
+
+    <hr class="mt-4">
+
+    <!-- Locations -->
+    <section class="container locations" id="locations">
+        <div class="row justify-content-center">
+            <h2 class="col-12 display-5 text-center mt-3 mb-3">Locations</h2>
+            <!--Location 1-->
+            <div class="col-12 col-md-6 col-xl-4 d-flex align-items-stretch mb-3">
+                <div class="card location">
+                    <img src="images/lucas-swinden-1052950-unsplash.jpg" class="card-img-top img-fluid" alt="Street in Dublin, Ireland">
+                    <div class="card-body d-flex flex-column">
+                        <h3 class="card-title">Dublin, Ireland</h3>
+                        <p class="card-text">Dublin, capital of the Republic of Ireland, is on Ireland’s east coast at the mouth of the River Liffey. Its historic buildings include Dublin Castle, dating to the 13th century...</p>
+                        <button type="submit" class="btn align-self-center mt-auto greybutton text-center ">More Info</button>
+                    </div>
+                </div>
+            </div>
+        <!--Location 2-->
+            <div class="col-12 col-md-6 col-xl-4 d-flex align-items-stretch mb-3">  
+                <div class="card location">
+                    <img src="images/aditya-vyas-787943-unsplash.jpg" class="card-img-top img-fluid" alt="View of cathedral ceiling with artwork and architecture'">
+                    <div class="card-body d-flex flex-column">
+                        <h3 class="card-title">St. Patrick’s Cathedral</h3>
+                        <p class="card-text">St. Patrick’s Cathedral is an historic Irish institution. This famous church sees more than 300,000 visitors a year, and their offerings help their church maintain itself after more than 800 years of servings its patrons...</p>
+                        <button type="submit" class="btn align-self-center mt-auto greybutton text-center ">More Info</button>
+                    </div>
+                </div>
+            </div>
+        <!--Location 3-->
+            <div class="col-12 col-md-6 col-xl-4 d-flex align-items-stretch mb-3"> 
+                <div class="card location">
+                    <img src="images/thomas-verleene-1282608-unsplash.jpg" class="card-img-top img-fluid" alt="Cliffs overlooking ocean on a clear sunny day">
+                    <div class="card-body d-flex flex-column">
+                        <h3 class="card-title">Cliffs of Moher</h3>
+                        <p class="card-text">Travelers brave the cold and fog all for the sake of seeing these famous cliffs overlooking the wild Atlantic Ocean. These cliffs rise more than 214 meters (or about 700 feet) at their highest point...</p>
+                        <button type="submit" class="btn align-self-center mt-auto greybutton text-center ">More Info</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="mt-3">
+
+    <!-- Things to Do -->
+    <section class="container thingsdo" id="thingsdo"> 
+        <div class="row justify-content-center">
+            <h2 class="col-12 display-5 text-center mt-3 mb-3">Things To Do</h2>
+            <!--Cards-->
+            <div class="col-12 col-xl-6 d-flex align-items-stretch mb-3"> 
+                <div class="card thingdo mb-3">
+                    <div class="row">
+                        <div class="col-6 col-md-4">
+                            <img class="img-thingdo" src="images/clark-street-mercantile-33919-unsplash.jpg" alt="Clothing store with racks of clotsh">
+                        </div>
+                        <div class="col-6 col-md-8 d-flex flex-column">
+                            <h3 class="card-title">Shopping</h3>
+                            <p class="card-text">Find something for yourself or a loved one. Locations in Irelands are litered with extravigant shopping choices...</p>                                
+                            <button type="submit" class="btn btn-sm col-8 col-md-3 col-xl-3 align-self-end mt-auto darkgreybutton text-center">Plan Now</button>                                        
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-6 d-flex align-items-stretch mb-3"> 
+                <div class="card thingdo mb-3">
+                    <div class="row">
+                        <div class="col-6 col-md-4">
+                            <img class="img-thingdo" src="images/fancy-crave-22481-unsplash.jpg" alt="Soccer stadium full of people">
+                        </div>
+                        <div class="col-6 col-md-8 d-flex flex-column">
+                            <h3 class="card-title">Events & Sports</h3>
+                            <p class="card-text">Ireland has some of the best sporting and entertaining ventues for music, art, and sports lovers alike...</p>                                
+                            <button type="submit" class="btn btn-sm col-8 col-md-3 col-xl-3 align-self-end mt-auto darkgreybutton text-center">Buy Tickets</button>                                        
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-6 d-flex align-items-stretch mb-3"> 
+                <div class="card thingdo mb-3">
+                    <div class="row">
+                        <div class="col-6 col-md-4">
+                            <img class="img-thingdo" src="images/rawpixel-1162844-unsplash.jpg" alt="A person looking at a map">
+                        </div>
+                        <div class="col-6 col-md-8 d-flex flex-column">
+                            <h3 class="card-title">Explore Outdoors</h3>
+                            <p class="card-text">A history like none other also affords the opportunity to explore some of the world’s most beatiful outdoor turrain...</p>                                
+                            <button type="submit" class="btn btn-sm col-8 col-md-3 col-xl-3 align-self-end mt-auto darkgreybutton text-center">Plan Now</button>                                        
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-6 d-flex align-items-stretch mb-3"> 
+                <div class="card thingdo mb-3">
+                    <div class="row">
+                        <div class="col-6 col-md-4">
+                            <img class="img-thingdo" src="images/ibrahim-rifath-748264-unsplash.jpg" alt="Glass of water on a table next to a coffee with milk shaped like a heart inside">
+                        </div>
+                        <div class="col-6 col-md-8 d-flex flex-column">
+                            <h3 class="card-title">Food For All</h3>
+                            <p class="card-text">Whether you want a casual bite or a fully emersive dining experience, Ireland has some fo the oldest and traditioned restaurants in the world...</p>                                
+                            <button type="submit" class="btn btn-sm col-9 col-md-3 col-xl-3 align-self-end mt-auto darkgreybutton text-center">Book Now</button>                                        
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="mt-3 mb-5">
+
+    <!-- Recommended Activity -->
+    <section class="recommendedactvity">
+        <div class="row d-flex flex-column">
+            <h2 class="text-center">Recommended Activity</h2>
+        </div>
+        <div class="row recommended mt-3">
+            <div class="card col-12">
+                <img class="img-fluid" src="images/louis-hansel-1317737-unsplash.jpg" alt="View of the front entrance of the Guinness Storehouse in Ireland">
+                <div class="card-img-overlay d-flex flex-column justify-content-end text-center text-white">
+                    <h3 class="display-4">Guiness Storehouse</h3>
+                    <p id="fact">Brewery experience telling the tale of Ireland's famous beer!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="mt-5 mb-5">
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h2 class="col-12 text-white text-center mt-3">Gallery</h2>
+            </div>
+            <div class="row justify-content-center mt-3">
+                <div class="gal-img col-6 col-md-4 col-xl-3 d-flex align-items-stretch mb-3">
+                    <img class="gal-img img-fluid" src="images/ryan-stone-791675-unsplash.jpg" alt="Girl and dog standing in the forrest" />
+                    <a href="#" class="gal-img card-img-overlay shadowed d-flex flex-column justify-content-end text-left text-white">Outdoors</a>
+                </div>
+                <div class="gal-img col-6 col-md-4 col-xl-3 d-flex align-items-stretch mb-3">
+                    <img class="gal-img img-fluid" src="images/irma-sophia-506834-unsplash.jpg" alt="Plate of french fries in front of a glass of beer and glass of water" />
+                    <a href="#" class="gal-img card-img-overlay shadowed d-flex flex-column justify-content-end text-left text-white">Food</a>
+                </div>
+                <div class="gal-img col-6 col-md-4 col-xl-3 d-flex align-items-stretch mb-3">
+                    <img class="gal-img img-fluid" src="images/beschte-photography-614258-unsplash.jpg" alt="Man standing on mountain cliff holding a orange flair in one hand and a green flair in the other" />
+                    <a href="#" class="gal-img card-img-overlay shadowed d-flex flex-column justify-content-end text-left text-white">Culture</a>
+                </div>
+                <div class="gal-img col-6 col-md-4 col-xl-3 d-flex align-items-stretch mb-3">
+                    <img class="gal-img img-fluid" src="images/elias-ehmann-100536-unsplash.jpg" alt="View of cliffs overseeing an ocean front" />
+                    <a href="#" class="gal-img card-img-overlay shadowed d-flex flex-column justify-content-end text-left text-white">Sites</a>
+                </div>    
+                <div class="gal-img col-6 col-md-4 col-xl-3 d-flex align-items-stretch mb-3">
+                    <img class="gal-img img-fluid" src="images/billetto-editorial-330494-unsplash.jpg" alt="Female singer standing at a microphone on stage" />
+                    <a href="#" class="gal-img card-img-overlay shadowed d-flex flex-column justify-content-end text-left text-white">Fine Arts</a>
+                </div>
+                <div class="gal-img col-6 col-md-4 col-xl-3 d-flex align-items-stretch mb-3">
+                    <img class="gal-img img-fluid" src="images/megan-johnston-80552-unsplash.jpg" alt="Livestock standing in the green countryside" />
+                    <a href="#" class="gal-img card-img-overlay shadowed d-flex flex-column justify-content-end text-left text-white">Countryside</a>
+                </div>
+                <div class="gal-img col-6 col-md-4 col-xl-3 d-flex align-items-stretch mb-3">
+                    <img class="gal-img img-fluid" src="images/stephen-bergin-214607-unsplash.jpg" alt="Front view of a large building" />
+                    <a href="#" class="gal-img card-img-overlay shadowed d-flex flex-column justify-content-end text-left text-white">Culture</a>
+                </div>
+                <div class="gal-img col-6 col-md-4 col-xl-3 d-flex align-items-stretch mb-3">
+                    <img class="gal-img img-fluid" src="images/nathan-anderson-131021-unsplash.jpg" alt="Very green grass next to a large waterfall in the forest" />
+                    <a href="#" class="gal-img card-img-overlay shadowed d-flex flex-column justify-content-end text-left text-white">Sites</a>
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <hr class="mt-5">
+
+    <!-- Contact -->
+    <section class="container" id="contact">
+        <div class="row">
+            <div class="col-12 mt-5">
+                <h2 class="col-12 display-5 text-center">Contact</h2>
+                <form class="d-flex flex-column mb-4">
+                    <div class="form-row">
+                        <div class="col-12 form-group">
+                            <label for="exampleInputName1">Name</label>
+                            <input type="text" class="form-control" placeholder="John Smith">
+                        </div>
+                        <div class="col-12 form-group">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="email" class="form-control" placeholder="jsmith@example.com">
+                        </div>
+                        <div class="col-12 form-group">
+                            <label for="exampleInputPhone1">Contact Phone</label>
+                            <input type="text" class="form-control" placeholder="(555) 123-4567">
+                        </div>
+                        <div class="col-12 form-group">
+                            <label for="exampleInputMessage1">Message Details</label>
+                            <textarea class="form-control" placeholder="How can we assist you with your trip to Ireland?" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <button onclick="myFunction()" type="submit" class="col-4 col-md-2 btn align-self-center greybutton text-center">Submit</button>
+                    <script>
+                        function myFunction() {
+                            alert("Thank you very much for contacting Travel363. A representative will contact you within one business day!")
+                        }
+                    </script>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="row footer">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-xl navbar-dark">
+                <div class="container">
+                    <p class="col-12 display-5 text-right text-white mt-4 mb-4">&#169 Travel363 | <a href="#">Policies </a><a href="#">Terms </a><a href="#">Accessibility </a><a href="#">Contact </a> </p>
+                </div>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
